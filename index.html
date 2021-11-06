@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="stylesheet" href="./CSS/style.css" />
+
+    <title>Jeethen Crasta</title>
+  </head>
+  <!-------------- Nav -------------->
+  <body>
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav_logo">Jeethen</a>
+        <div class="nav_menu" id="nav_menu">
+          <ul class="nav_list grid">
+            <li class="nav_item">
+              <a href="#home" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i>Home
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#about" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i>About
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#skills" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i>Skills
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#projects" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i>Projects
+              </a>
+            </li>
+            <li class="nav_item">
+              <a href="#contact" class="nav_link">
+                <i class="uil uil-estate nav_icon"></i>Contact Me
+              </a>
+            </li>
+          </ul>
+          <i class="uil uil-times nav_close" id="navclose"></i>
+        </div>
+        <div class="nav_btns">
+          <i class="uil uil-moon change_theme" id="dark-btn"></i>
+          <i class="uil uil-sun change_theme hidden" id="light-btn"></i>
+          <div class="nav_toggle" id="nav_toggle">
+            <i class="uil uil-apps"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main class="main">
+      <!----------------------HOME ------------------------->
+      <section class="home section" id="home">
+        <div class="home_container container grid">
+          <div class="home_content grid">
+            <!-- <div class="home_img">
+              <img src="./Images/Work.svg" alt="" />
+            </div> -->
+            <div class="home_data">
+              <h1 class="home_title">Hi, I'm Jeethen Crasta</h1>
+              <h3 class="home_subtitle">
+                Web Developer | JavaScript | ReactJS
+              </h3>
+              <a href="#contact" class="button button_flex"
+                >Contact Me
+                <i class="uil uil-arrow-right button_icon"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!----------------------- ABOUT -------------------------->
+      <section class="about section" id="about">
+        <h2 class="section_title">About Me</h2>
+        <div class="about_container container">
+          <div class="about_data">
+            <p class="about_description">
+              I'm Jeethen Clavan Crasta, I like to build stuff for web and I'm
+              enthusiastic to learn new technologies. Currently in the roadmap
+              of becoming a full stack web developer. During my free time I like
+              to play games and watch TV Shows.
+            </p>
+            <a target="_blank" href="./pdf/Jeethen Crasta.pdf" class="button button_flex"
+              >Resume
+              <i class="uil uil-file-download button_icon"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!------------------------SKILLS ---------------------------->
+      <section class="skills section" id="skills">
+        <h2 class="section_title">Skills</h2>
+        <div class="skills_container container grid">
+          <div class="skill">
+            <img src="./Images/HTML.svg" alt="" />
+            <h3 class="skill_name">HTML</h3>
+          </div>
+          <div class="skill">
+            <img src="./Images/CSS.svg" alt="" />
+            <h3 class="skill_name">CSS</h3>
+          </div>
+          <div class="skill">
+            <img src="./Images/JavaScript.svg" alt="" />
+            <h3 class="skill_name">JavaScript</h3>
+          </div>
+          <div class="skill">
+            <img src="./Images/ReactJS.svg" alt="" />
+            <h3 class="skill_name">ReactJS</h3>
+          </div>
+          <div class="skill">
+            <img src="./Images/Git.svg" alt="" />
+            <h3 class="skill_name">Git</h3>
+          </div>
+          <div class="skill">
+            <img src="./Images/Bootstrap.svg" alt="" />
+            <h3 class="skill_name">Bootstrap</h3>
+          </div>
+        </div>
+      </section>
+
+      <!--==================== PROJECTS ====================-->
+      <section class="projects container" id="projects">
+        <h1 class="section_title">Projects</h1>
+        <div class="projects_container container grid">
+          <div class="project">
+            <div class="image_container">
+              <img src="./Images/BudgetApp.png" alt="The Budget App" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">The Budget App</h3>
+              <p class="description">
+                Its an application where users can estimate their budget by theirs income and expenses.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://jeethen-budget-app.netlify.app"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Jeethen07/A-Budget-App"
+                class="button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <div class="image_container">
+              <img src="./Images/Instagram.png" alt="Instagram Clone" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">Instagram Clone</h3>
+              <p class="description">
+                A clone of Instagram App where user can post, comment on other post etc.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://jeethen-instagram-clone.netlify.app"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Jeethen07/instagram-clone-react"
+                class="button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <div class="image_container">
+              <img src="./Images/Spotify.png" alt="Spotify Clone" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">Spotify Clone</h3>
+              <p class="description">
+                A clone of Spotify App where user can login through Spotify and able to see the songs from his account.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://jeethen-spotify-clone-react.netlify.app"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Jeethen07/Spotify-Clone-React"
+                class="button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <div class="image_container">
+              <img src="./Images/Entertainment.png" alt="Entertainment Hub" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">Entertainment Hub</h3>
+              <p class="description">
+                An Movies and Tv Shows Searching App where user can get the basic details of Movies and Tv Shows that are currently available.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://entertainment-hub-react.netlify.app"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Jeethen07/Entertainment-Hub"
+                class="button"
+                >View Code</a
+              >
+            </div>
+          </div>
+          <div class="project">
+            <div class="image_container">
+              <img src="./Images/Book.png" alt="Book Mart" />
+            </div>
+            <div class="project_description">
+              <h3 class="project_title">Book Mart</h3>
+              <p class="description">
+                Book Mart is an e - commerce site where users can place order and purchase the books.
+              </p>
+            </div>
+            <div class="project_links">
+              <a
+                target="_blank"
+                href="https://book-mart-gatsby.netlify.app"
+                class="button"
+                >View Demo</a
+              >
+              <a
+                target="_blank"
+                href="https://github.com/Jeethen07/Ecommerce-Site-Gatsby"
+                class="button"
+                >View Code</a
+              >
+            </div>
+        </div>
+      </section>
+
+      <!--==================== CONTACT ME ====================-->
+      <section class="contact section" id="contact">
+        <h2 class="section_title">Contact Me</h2>
+        <span class="section_subtitle">Get in touch</span>
+        <div class="contact_container container grid">
+          <div>
+            <div class="contact_info">
+              <i class="uil uil-envelope contact_icon"></i>
+              <div>
+                <h3 class="contact_title">Email</h3>
+                <span class="contact_subtitle">
+                  jeethencrasta2000@gmail.com
+                </span>
+              </div>
+            </div>
+            <div class="contact_info">
+              <a target="_blank" href="">
+                <i class="uil uil-linkedin contact_icon"></i>
+              </a>
+              <div>
+                <a target="_blank" href="">
+                  <h3 class="contact_title">LinkedIn</h3>
+                  <span class="contact_subtitle"> Jeethen Clavan Crasta </span>
+                </a>
+              </div>
+            </div>
+            <div class="contact_info">
+              <a target="_blank" href="https://github.com/Jeethen07">
+                <i class="uil uil-github contact_icon"></i>
+              </a>
+              <div>
+                <a target="_blank" href="https://github.com/Jeethen07">
+                  <h3 class="contact_title">Github</h3>
+                  <span class="contact_subtitle"> Jeethen07 </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <form action=""></form>
+        </div>
+      </section>
+      <footer class="page_footer">
+        <div>
+          <a class="footer_text"> Jeethen &copy; 2021-Infinity. No rights reserved. </a>
+        </div>
+      </footer>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
